@@ -20,7 +20,7 @@ public class PhraseOMatic {
         int threeLength = wordlistThree.length;
 
         // generate three random numbers
-        java.util.Random randomGenerator = new java.util.Random;
+        java.util.Random randomGenerator = new java.util.Random();
         int rand1 = randomGenerator.nextInt(oneLength);
         int rand2 = randomGenerator.nextInt(twoLength);
         int rand3 = randomGenerator.nextInt(threeLength);
